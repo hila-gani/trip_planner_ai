@@ -88,14 +88,6 @@ npm run dev
 python app.py
 ```
 
----
-
-## Demo
-
-(Add screenshots or GIFs here)
-
----
-
 ## Future Improvements
 
 - Real-time travel data integration
