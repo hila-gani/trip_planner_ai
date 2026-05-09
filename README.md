@@ -1,28 +1,104 @@
-# trip_planner_ai
-AI-Powered Trip Planner
-A full-stack application that leverages generative AI to create personalized travel itineraries. The project combines a modern Next.js frontend with an AI-driven backend using RAG (Retrieval-Augmented Generation).
+# Trip Planner AI
 
-Key Features
-Intelligent Itinerary Generation: Uses Gemini AI to transform user preferences into detailed travel plans.
+A full-stack AI-powered travel planning application that generates personalized trip itineraries based on user preferences.  
+The project combines a modern Next.js frontend with a backend pipeline that uses Retrieval-Augmented Generation (RAG) to provide context-aware travel recommendations.
 
-RAG Architecture: Implements semantic context enhancement for AI responses.
+---
 
-Interactive Mapping: Integration with Google Maps API for route planning and site visualization.
+## Features
 
-Type-Safe Development: Built with TypeScript to ensure code reliability and maintainability.
+- **Personalized Trip Generation** — Create customized travel itineraries using Gemini AI.
+- **RAG-Based Recommendation Pipeline** — Enhance AI responses with relevant contextual information.
+- **Interactive Maps Integration** — Visualize locations and routes using the Google Maps API.
+- **Modern Responsive UI** — Built with React, Next.js, and Tailwind CSS.
+- **Type-Safe Development** — Implemented with TypeScript for improved maintainability and reliability.
 
-Tech Stack
-Frontend: Next.js (App Router), React, Tailwind CSS.
+---
 
-Backend: Python and SQL for data management.
+## Tech Stack
 
-AI/ML: Google Gemini AI API, sentence embeddings, and vector similarity.
+### Frontend
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
 
-Tools: Git, ESLint, PostCSS.
+### Backend
+- Python
+- SQL
 
-Engineering Highlights
-Semantic Search: Implemented embedding logic using cosine distance to analyze text similarity.
+### AI / ML
+- Google Gemini API
+- Sentence Embeddings
+- Vector Similarity Search
+- Retrieval-Augmented Generation (RAG)
 
-Component-Based UI: Modular React architecture with custom hooks for state management.
+### Tools
+- Git
+- ESLint
+- PostCSS
 
-RAG Implementation: Developed a custom flow to provide the LLM with relevant context before generating results.
+---
+
+## Engineering Highlights
+
+### Semantic Retrieval Pipeline
+Implemented embedding-based semantic search using vector similarity to retrieve contextually relevant travel information for the LLM.
+
+### RAG Workflow
+Built a Retrieval-Augmented Generation pipeline that injects relevant context into prompts before itinerary generation.
+
+### Component-Based Architecture
+Designed a modular React architecture with reusable UI components and custom hooks for state management.
+
+### Interactive User Experience
+Integrated Google Maps APIs for location visualization and route exploration.
+
+---
+
+## Project Structure
+
+```text
+.
+├── frontend/
+├── backend/
+├── public/
+└── README.md
+```
+
+---
+
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the frontend
+
+```bash
+npm run dev
+```
+
+### Run the backend
+
+```bash
+python app.py
+```
+
+---
+
+## Demo
+
+(Add screenshots or GIFs here)
+
+---
+
+## Future Improvements
+
+- Real-time travel data integration
+- Multi-user trip collaboration
+- Budget optimization and recommendation ranking
+- Deployment and cloud scaling
