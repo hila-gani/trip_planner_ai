@@ -30,7 +30,7 @@ raw_text = "\n".join(lines)
 # === Create JSON document ===
 document = {
     "text": raw_text,
-    "timestamp": datetime.datetime.utcnow(),
+    "timestamp": datetime.datetime.now(timezone.utc),
     "city": city
 }
 
